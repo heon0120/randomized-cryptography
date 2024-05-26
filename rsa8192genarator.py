@@ -8,7 +8,7 @@ import datetime as time
 private_key_directory = input("개인키저장 디렉토리를 입력하세요:")
 public_key_directory = input("공개키저장 디렉토리를 입력하세요:")
 now = time.datetime.now()
-print ("[INFO " + str(now) + "]" "공개키 디렉토리" + private_key_directory + "와, 개인키 디렉토리" + public_key_directory + "에 키파일 100쌍의 키를 생성합니다.")
+print ("[INFO " + str(now) + "]" "개인키 디렉토리" + private_key_directory + "와, 공개키 디렉토리" + public_key_directory + "에 키파일 100쌍의 키를 생성합니다.")
 def create_rsa_key_pairs(private_key_dir, public_key_dir, key_size=8192, key_pairs_num=100):
     if not os.path.exists(private_key_dir):
         os.makedirs(private_key_dir)
