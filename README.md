@@ -11,7 +11,7 @@ Encrypt each letter of the entered plaintext with RSA8192 key.
 
 
 
-# 프로그램 구성
+## 프로그램 구성
 
 
 * rsa8192genarator.py: 100쌍의 RSA8192키를 pub1.pem , priv1.pem 같은 형식으로 생성합니다.
@@ -25,7 +25,7 @@ Encrypt each letter of the entered plaintext with RSA8192 key.
  
 
 
-# 선행 조건
+## 선행 조건
 
 아래 사항들이 설치가 되어있어야합니다.
 
@@ -33,7 +33,7 @@ Encrypt each letter of the entered plaintext with RSA8192 key.
 
 
 
-# 설치 방법
+## 설치 방법
 
 1. 이 저장소를 GitHub에 복제합니다.
 
@@ -43,7 +43,7 @@ Encrypt each letter of the entered plaintext with RSA8192 key.
        pip install -r requirements.txt
 
    
-# 사용 방법
+## 사용 방법
 #### 1. RSA8192키 생성
 
 
@@ -88,7 +88,7 @@ Encrypt each letter of the entered plaintext with RSA8192 key.
 > RSA8192는 매우큰 키파일 이므로 복호화시 많은 시간이 걸립니다.
 
 
-# 암호화 메커니즘에관한 설명
+## 암호화 메커니즘에관한 설명
 
 ### 암호화 메커니즘 개요
 
@@ -150,7 +150,7 @@ Encrypt each letter of the entered plaintext with RSA8192 key.
 또한, RSA가 아닌 ECC같은 키길이가 잛은 암호화를 사용한다면 적은 시간내 많은 문자열을 복호화 암호화를 할수 있습니다.
 
 
-# 라이브러리
+## 라이브러리
 
 cryptography>=3.7
 
@@ -159,8 +159,8 @@ json
 datetime
 
 
-# 기여
+## 기여
 소스 수정사항이 있다면 Pull requests 로 열어주세요.
 
-# 라이센스
+## 라이센스
 이 프로젝트는 MIT라이선스가 적용됩니다.
