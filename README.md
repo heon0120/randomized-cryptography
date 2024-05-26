@@ -95,7 +95,7 @@ Encrypt each letter of the entered plaintext with RSA8192 key.
 #### 본 프로그램은 다음과 같은 매커니즘으로 동작합니다.
 
 > [!Warning]
-> 여기서는 이해하기 쉽게 pub1.pem pub2.pem ... pub100.pem 을 각각 1~100 번이라 칭합니다.
+> 여기서는 이해하기 쉽게 pub1.pem pub2.pem ... pub100.pem 와 priv1.pem priv2.pem ....lpriv100.pem 을 각각 1~100 번이라 칭합니다.
 > 
 > 또한 pub는 공개키, priv는 개인키를 칭합니다.
 > 
