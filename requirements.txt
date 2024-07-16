@@ -1,4 +1,6 @@
-cryptography>=3.7
 json
+random
+cryptodome==latest
+cryptography==latest
+os
 datetime
-pycrypto
