@@ -153,10 +153,11 @@ Encrypt each letter of the entered plaintext with RSA8192 key.
 
 ## 라이브러리
 
-cryptography>=3.7
-
 json
-
+random
+cryptodome==latest
+cryptography==latest
+os
 datetime
 
 
