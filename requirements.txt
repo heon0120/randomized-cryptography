@@ -1,6 +1,2 @@
-json
-random
-cryptodome==latest
-cryptography==latest
-os
-datetime
+cryptography>=3.7
+pycryptodome
