@@ -1,5 +1,7 @@
 # randomized-cryptography
 Encrypt each letter of the entered plaintext with RSA8192 key.
+
+[View English Documents] (https://github.com/heon0120/randomized-cryptography/blob/main/Readme(en).md)
 # 프로그램 개요
 
 
