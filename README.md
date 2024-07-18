@@ -155,17 +155,9 @@ Encrypt each letter of the entered plaintext with RSA8192 key.
 
 ## 라이브러리
 
->json
->
->random
->
->cryptodome
->
 >cryptography
 >
->os
->
->datetime
+>pycryptodome
 
 
 ## 기여
