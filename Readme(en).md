@@ -159,17 +159,9 @@ Furthermore, employing shorter encryption algorithms like ECC instead of RSA can
 
 ## Packages
 
->json
->
->random
->
->cryptodome
->
 >cryptography
 >
->os
->
->datetime
+>pycryptodome
 
 
 ## Contribute
