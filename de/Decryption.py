@@ -4,8 +4,8 @@ from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_OAEP
 import datetime
  
-KEY_DIR = "key"  # Fixed key directory name
-DATA_DIR = "encryptedfile"  # Directory name containing encrypted JSON data files
+KEY_DIR = "key"  
+DATA_DIR = "encryptedfiles  
  
 def decrypt_large_file(file_name):
     # Assuming all files are encoded in UTF-8
@@ -33,7 +33,6 @@ def decrypt_large_file(file_name):
             cipher = PKCS1_OAEP.new(keys[key_number])
             decrypted_char = cipher.decrypt(bytes.fromhex(encrypted_text)).decode("utf-8")
             decrypted_text += decrypted_char
-            # ... (기존 진행률 출력 코드 제거)
         except ValueError as e:
             print(f"[ERROR] Decryption failed for key {key_number}\nError code: {e}")
  
