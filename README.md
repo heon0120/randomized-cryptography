@@ -1,6 +1,3 @@
-# 대회 관련 알림
-조성헌이 만들었습니다.
-
 # randomized-cryptography
 Encrypt each letter of the entered plaintext with RSA8192 key.
 
